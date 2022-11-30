@@ -12,6 +12,6 @@ Building and executing the xws in Xtensa Xplorer is described in the API Referen
 Detailed release documentation can be extracted from lib.xws/doc folder.
 
 # Release v1.1.0 Brief
-Release Date : 30-Oct-2022 
+Release Date : 30-Oct-2022.  
 This release contains numerous kernels that are optimized for either performance or code size, 
 for the updated HiFi1 core in RI-2022.9 tool chain. 
