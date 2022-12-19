@@ -1,0 +1,16 @@
+; test data for verification of bqriirf_df2t function
+
+; these data are generated automatically, do not change them manually
+; ---------------------------------------------------------------
+; Copyright Integrit 2014-2015
+; ---------------------------------------------------------------
+1 1 ; M,L
+3f1d34c4 3f9d34c4 3f1d34c4 3d83340a 3ea0c07b ; coef
+; gain
+bf800000 ; scale
+; small N
+1 2; test case # and type (small N)
+4 ; N
+be9931f4 bf4f562a be07d778 3ed641c0 ; x[4][1]
+b7fba882 bdbc3627 beda6649 bf12e59a ; zlo[4][1] (lower bound)
+37fba882 bdbc16b1 beda5e6b bf12e1ac ; zhi[4][1] (upper bound)

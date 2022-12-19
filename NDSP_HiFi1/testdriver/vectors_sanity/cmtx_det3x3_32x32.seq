@@ -1,0 +1,13 @@
+; test data for verification of cmtx_det32x32 function
+
+; these data are generated automatically, do not change them manually
+; ---------------------------------------------------------------
+; Copyright Integrit 2014-2015
+; ---------------------------------------------------------------
+; known data
+1 1; test case # and type (known data)
+3 1 ; N,L
+-69566464 -482705408 587137024 584548352 -208076800 -511410176 -586252288 -422313984 151158784 160956416 -597426176 1019314176 -635011072 880640000 1001095168 -23494656 640024576 349143040 ; x[3][3][1]
+0 ; rsh
+-82284461 -117156966 ; zlo (lower bound)
+-82284459 -117156964 ; zhi (upper bound)
