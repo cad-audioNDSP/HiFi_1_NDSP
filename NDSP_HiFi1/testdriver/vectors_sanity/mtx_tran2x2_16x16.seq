@@ -1,0 +1,12 @@
+; test data for verification of mtx_tran16x16 function
+
+; these data are generated automatically, do not change them manually
+; ---------------------------------------------------------------
+; Copyright Integrit 2014-2015
+; ---------------------------------------------------------------
+; known data
+1 1; test case # and type (known data)
+2 1 ; N,L
+-19197 -8417 -24697 26741 ; x[2][2][1]
+-19197 -24697 -8417 26741 ; zlo (lower bound)
+-19197 -24697 -8417 26741 ; zhi (upper bound)

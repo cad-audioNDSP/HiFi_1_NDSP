@@ -1,0 +1,13 @@
+; test data for verification of vec_dividef function
+
+; these data are generated automatically, do not change them manually
+; ---------------------------------------------------------------
+; Copyright Integrit 2014-2015
+; ---------------------------------------------------------------
+; known data
+1 1; test case # and type (known data)
+2 ; N
+7f800000 c0000000 ; x[2]
+00000000 00000000 ; y[2]
+7f800000 ff800000 ; zlo (lower bound)
+7f800000 ff800000 ; zhi (upper bound)

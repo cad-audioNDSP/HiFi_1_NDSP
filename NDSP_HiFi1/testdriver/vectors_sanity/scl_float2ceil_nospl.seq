@@ -1,0 +1,27 @@
+; test data for verification of vec_float2ceil function
+
+; these data are generated automatically, do not change them manually
+; ---------------------------------------------------------------
+; Copyright Integrit 2014-2015
+; ---------------------------------------------------------------
+; known data
+1 1; test case # and type (known data)
+4 ; N
+7f7fffff 7effffff 7e7fffff 7dffffff ; x[4]
+7f7fffff 7effffff 7e7fffff 7dffffff ; ylo[4] (lower bound)
+7f7fffff 7effffff 7e7fffff 7dffffff ; yhi[4] (upper bound)
+2 1; test case # and type (known data)
+4 ; N
+00800000 00400000 00200000 00000001 ; x[4]
+3f800000 3f800000 3f800000 3f800000 ; ylo[4] (lower bound)
+3f800000 3f800000 3f800000 3f800000 ; yhi[4] (upper bound)
+3 1; test case # and type (known data)
+10 ; N
+4f000000 4ee66666 4ecccccd 4eb33333 4e99999a 4e800000 4e4ccccd 4e19999a 4dcccccd 4d4ccccd ; x[10]
+4f000000 4ee66666 4ecccccd 4eb33333 4e99999a 4e800000 4e4ccccd 4e19999a 4dcccccd 4d4ccccd ; ylo[10] (lower bound)
+4f000000 4ee66666 4ecccccd 4eb33333 4e99999a 4e800000 4e4ccccd 4e19999a 4dcccccd 4d4ccccd ; yhi[10] (upper bound)
+4 1; test case # and type (known data)
+10 ; N
+4f000000 4ee66666 4ecccccd 4eb33333 4e99999a 4e800000 4e4ccccd 4e19999a 4dcccccd 4d4ccccd ; x[10]
+4f000000 4ee66666 4ecccccd 4eb33333 4e99999a 4e800000 4e4ccccd 4e19999a 4dcccccd 4d4ccccd ; ylo[10] (lower bound)
+4f000000 4ee66666 4ecccccd 4eb33333 4e99999a 4e800000 4e4ccccd 4e19999a 4dcccccd 4d4ccccd ; yhi[10] (upper bound)

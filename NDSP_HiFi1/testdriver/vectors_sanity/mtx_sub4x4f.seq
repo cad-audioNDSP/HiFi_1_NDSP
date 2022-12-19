@@ -1,0 +1,13 @@
+; test data for verification of mtx_subf function
+
+; these data are generated automatically, do not change them manually
+; ---------------------------------------------------------------
+; Copyright Integrit 2014-2015
+; ---------------------------------------------------------------
+; known data
+1 1; test case # and type (known data)
+4 1 ; N,L
+c6d3c800 46805600 c6279000 44986000 c6877a00 4577d000 450ea000 46a87000 4626e400 465b2c00 46f06000 c6753800 4650dc00 46681800 c6c9f400 c625f400 ; x[4][4][1]
+46c6b000 46415c00 c6020400 4555a000 c6647800 46a3e400 4580b800 46f08c00 46823e00 46c7f000 46695400 c60c9400 c6122400 c6fa4400 c5306000 c6ff1e00 ; y[4][4][1]
+c74d3c00 457d4000 c5163000 c5097000 c529f000 c684ea00 c4e5a000 c6103800 c5bb3000 c634b400 46776c00 c5d14800 46b18000 47372800 c6b3e800 46ac2400 ; zlo (lower bound)
+c74d3c00 457d4000 c5163000 c5097000 c529f000 c684ea00 c4e5a000 c6103800 c5bb3000 c634b400 46776c00 c5d14800 46b18000 47372800 c6b3e800 46ac2400 ; zhi (upper bound)

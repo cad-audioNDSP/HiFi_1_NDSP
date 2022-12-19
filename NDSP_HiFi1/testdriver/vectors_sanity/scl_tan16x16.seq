@@ -1,0 +1,12 @@
+; test data for verification of vec_tan16x16 function
+
+; these data are generated automatically, do not change them manually
+; ---------------------------------------------------------------
+; Copyright Integrit 2014-2015
+; ---------------------------------------------------------------
+; known data
+1 1; test case # and type (known data)
+17 ; N
+-32768 -28672 -24576 -20480 -16384 -12288 -8192 -4096 0 4096 8192 12288 16384 20480 24576 28672 32767 ; x[17]
+-1 52 127 308 -32768 -310 -129 -54 -1 52 127 308 32766 -310 -129 -54 -1 ; ylo[17] (lower bound)
+1 54 129 310 -32767 -308 -127 -52 1 54 129 310 32767 -308 -127 -52 1 ; yhi[17] (upper bound)

@@ -1,0 +1,12 @@
+; test data for verification of vec_logn_24x24 function
+
+; these data are generated automatically, do not change them manually
+; ---------------------------------------------------------------
+; Copyright Integrit 2014-2015
+; ---------------------------------------------------------------
+; known data
+1 1; test case # and type (known data)
+5 ; N
+-2147483648 -1 0 1 2147483647 ; x[5]
+-2147483648 -2147483648 -2147483648 -2147483648 372129792 ; ylo[5] (lower bound)
+-2147483137 -2147483137 -2147483137 -2147483137 372131071 ; yhi[5] (upper bound)
