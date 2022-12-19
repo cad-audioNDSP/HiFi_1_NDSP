@@ -1,0 +1,12 @@
+; test data for verification of vec_recipf function
+
+; these data are generated automatically, do not change them manually
+; ---------------------------------------------------------------
+; Copyright Integrit 2014-2015
+; ---------------------------------------------------------------
+; known data
+1 1; test case # and type (known data)
+5 ; N
+3e4ccccd 3ecccccd 7fd16b11 3f19999a 3f4ccccd ; x[5]
+409fffff 401fffff 7ff72ba7 3fd55554 3f9fffff ; ylo[5] (lower bound)
+40a00001 40200001 7fc95521 3fd55556 3fa00001 ; yhi[5] (upper bound)
