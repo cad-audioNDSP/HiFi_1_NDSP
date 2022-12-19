@@ -1,0 +1,12 @@
+; test data for verification of vec_antilogn_24x24 function
+
+; these data are generated automatically, do not change them manually
+; ---------------------------------------------------------------
+; Copyright Integrit 2014-2015
+; ---------------------------------------------------------------
+; known data
+1 1; test case # and type (known data)
+3 ; N
+-2147483648 0 2147483647 ; x[3]
+0 32512 2147466240 ; ylo[3] (lower bound)
+255 33023 2147483647 ; yhi[3] (upper bound)

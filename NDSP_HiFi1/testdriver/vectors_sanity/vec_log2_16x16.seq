@@ -1,0 +1,12 @@
+; test data for verification of vec_log2_16x16 function
+
+; these data are generated automatically, do not change them manually
+; ---------------------------------------------------------------
+; Copyright Integrit 2014-2015
+; ---------------------------------------------------------------
+; known data
+1 1; test case # and type (known data)
+5 ; N
+-32768 -1 0 1 32767 ; x[5]
+-32768 -32768 -32768 -28674 32765 ; ylo[5] (lower bound)
+-32766 -32766 -32766 -28670 32767 ; yhi[5] (upper bound)

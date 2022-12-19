@@ -1,0 +1,12 @@
+; test data for verification of vec_float2ceil function
+
+; these data are generated automatically, do not change them manually
+; ---------------------------------------------------------------
+; Copyright Integrit 2014-2015
+; ---------------------------------------------------------------
+; known data
+1 1; test case # and type (known data)
+4 ; N
+7f7fffff 7effffff 7e7fffff 7dffffff ; x[4]
+7f7fffff 7effffff 7e7fffff 7dffffff ; ylo[4] (lower bound)
+7f7fffff 7effffff 7e7fffff 7dffffff ; yhi[4] (upper bound)
