@@ -18,8 +18,8 @@
 
 ## Compiling the Source Code: 
   * Navigate to the testdriver directory:   …/ NDSP_HiFi1/build/project/xtclang/testdriver
-  * **CLEAN:**  make clean -j -e LANG=LLVM  
-  * **BUILD:**  make all -j -e LANG=LLVM 
+  * **CLEAN:**  make clean -j   
+  * **BUILD:**  make all -j  
 
 
 ## Running the executable: 
