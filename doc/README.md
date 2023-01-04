@@ -1,5 +1,5 @@
 # How to Build and Run the Source Code in Linux environment
-  * Get the latest or required version of NDSP HiFi5 Code from GitHub 
+  * Get the latest or required version of NDSP HiFi1 Code from GitHub 
   * https://github.com/cad-audioNDSP/HiFi_1_NDSP/tree/main/NDSP_HiFi1
 
 ## The source code is organized as follows.
