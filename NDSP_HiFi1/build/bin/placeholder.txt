@@ -1,1 +1,0 @@
-This is only a placeholder file to ensure that bin folder is available by default.
